@@ -13,3 +13,25 @@ conforme a tabela abaixo:
 - INSS (8%) : R$
 - Sindicato ( 5%) : R$
 = Salário Liquido : R$ -->
+
+<?php
+echo "Quanto você ganha por hora: ";
+$h = readline();
+
+echo "O número de horas que você trabalha por mês: ";
+$horaMes = readline();
+
+$SalarioBruto = $h * $horaMes;
+$PorcentagemIR = $SalarioBruto * (11 / 100);
+$PorcentagemINSS = $SalarioBruto * (8 / 100);
+$PorcentagemSindicato = $SalarioBruto * (5 / 100);
+
+$SalarioLiquido = $SalarioBruto - $PorcentagemIR - $PorcentagemINSS - $PorcentagemSindicato;
+
+echo "+ Salário Bruto : R$ " . number_format($SalarioBruto, 2, ',', '.') . "\n";
+echo "- IR (11%) : R$" . number_format($PorcentagemIR, 2, ',', '.') . "\n";
+echo "- INSS (8%) : R$ " . number_format($PorcentagemINSS, 2, ',', '.') . "\n";
+echo "- Sindicato ( 5%) : R$ " . number_format($PorcentagemSindicato, 2, ',', '.') . "\n";
+echo "= Salário Liquido : R$ " . number_format($SalarioLiquido, 2, ',', '.') . "\n";
+
+?>
