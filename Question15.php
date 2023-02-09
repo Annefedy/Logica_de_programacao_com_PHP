@@ -8,3 +8,22 @@ e calcule o excesso.
 Gravar na variável excesso a quantidade de quilos além do limite 
 e na variável multa o valor da multa que João deverá pagar. 
 Imprima os dados do script com as mensagens adequadas. -->
+
+
+<?php
+echo "Digite o peso do peixe: ";
+$peso = readline();
+
+$limite = 50;
+
+$multa = 4;
+
+$excesso = $peso - $limite;
+$valorMulta = $excesso * $multa;
+
+if ($peso > 50) {
+  echo "João excedeu o limite de $limite quilos em $excesso quilos. \nA multa a ser paga é de R$ $valorMulta.";
+} else {
+  echo "Você não excede o limite da regulamentação pesqueira do Estado de São Paulo";
+}
+?>
