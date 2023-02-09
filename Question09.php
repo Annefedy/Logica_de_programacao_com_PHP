@@ -4,7 +4,7 @@ informar que não existe mês com este número. -->
 
 <?php
 echo "Digite um número para saber qual mês é: ";
-$numero = fgets(STDIN);
+$numero = readline();
 
 switch ($numero) {
   case 1:
