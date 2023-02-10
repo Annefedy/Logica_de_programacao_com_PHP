@@ -1,4 +1,5 @@
-<!-- 28 - A biblioteca de uma universidade deseja fazer um algoritmo 
+<!-- 28 - UTILIZAR LAÇOS DE REPETIÇÃO – for() – while() e Funções de String
+A biblioteca de uma universidade deseja fazer um algoritmo 
 que leia o nome do livro que será emprestado, 
 o tipo de usuário (professor ou aluno) 
 e possa imprimir um recibo conforme mostrado a seguir.

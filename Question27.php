@@ -1,3 +1,4 @@
-<!-- 27 - Faça um Exercício em PHP Ler 3 números, 
+<!-- 27 - UTILIZAR LAÇOS DE REPETIÇÃO – for() – while() e Funções de String
+Faça um Exercício em PHP Ler 3 números, 
 os possíveis lados de um triângulo, 
 e imprimir a classificação de acordo com tamanho dos lados. -->
